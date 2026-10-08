@@ -2,13 +2,16 @@
 
 Give the parts of a 3D scan names that every 3D Tiles viewer can read.
 
-> **Status: design stage, October 2026.** This repository holds the draft
-> feature format ([SPEC.md](SPEC.md)) and the architecture notes
-> ([ARCHITECTURE.md](ARCHITECTURE.md)). The code runs today inside
-> [field.tours](https://field.tours), IVAR Studios' platform for interactive
-> tours of real places. It moves here under Apache-2.0 as the project's first
-> milestone. We have applied for a Cesium Ecosystem Grant to build the rest in
-> the open.
+> **Status: proposed, October 2026. This project depends on funding.**
+> We have applied for a Cesium Ecosystem Grant to build it. If the grant is
+> awarded, development starts here, in the open, under Apache-2.0. Without
+> it, we cannot develop these tools as open source.
+>
+> What exists today: the draft feature format ([SPEC.md](SPEC.md)) and the
+> architecture notes ([ARCHITECTURE.md](ARCHITECTURE.md)). The code that
+> names features already runs inside [field.tours](https://field.tours), IVAR
+> Studios' platform for interactive tours of real places; the grant pays to
+> turn it into open tools that every 3D Tiles viewer can use.
 
 ## The problem
 
@@ -51,7 +54,7 @@ the same rule marks a 20 cm word on a runestone and a 700 m zone of a glacier.
 
 *An example, not real data. The format is in [SPEC.md](SPEC.md).*
 
-## What the project builds
+## What the grant would fund
 
 1. **The format:** a JSON Schema and a tested geometry library (containment,
    bounds, frames, GeoJSON conversion).
@@ -74,7 +77,7 @@ the same rule marks a 20 cm word on a runestone and a 700 m zone of a glacier.
 
 ## Roadmap
 
-Months from the start of the work:
+If the grant is awarded, in months from its start:
 
 | Month | Milestone |
 |---|---|
